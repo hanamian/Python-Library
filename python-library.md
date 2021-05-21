@@ -33,6 +33,7 @@ Seaborn membuat visualisasi lebih indah dibanding matplotlib biasa
 - **heatmap()**         : Plot rectangular data as a color-encoded matrix
 ---
 ## Scikit-learn
+untuk mempersiapkan data sebelum pemodelan
 - **LabelEncoder()**          : merubah nilai dari suatu variable menjadi 0 atau 1
 - **train_test_split()**      : membagi data menjadi 2 row bagian (Training & Testing)
 - **LogisticRegression()**    : memanggil algoritma Logistic Regression
@@ -44,6 +45,11 @@ Seaborn membuat visualisasi lebih indah dibanding matplotlib biasa
 Algoritma extreme gradient boosting (xgboost)
 - **XGBClassifier()**        : memanggil algoritma XG Boost Classifier
 ---
+## kmodes
+digunakan untuk melakukan permodelan menggunakan **algoritma K-Modes** dan **K-Prototypes**
+- from kmodes.kmodes import KModes
+- from kmodes.kprototypes import KPrototypes
+---
 ## Pickle 
 mengimplementasikan protokol biner untuk serializing dan de-serializing dari struktur objek Python
-- dump()                     : untuk menyimpan
+- dump()                     : untuk menyimpan model
